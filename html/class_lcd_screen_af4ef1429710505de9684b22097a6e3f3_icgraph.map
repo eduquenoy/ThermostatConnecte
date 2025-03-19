@@ -1,7 +1,0 @@
-<map id="LcdScreen::setBackLight" name="LcdScreen::setBackLight">
-<area shape="rect" id="Node000001" title=" " alt="" coords="201,31,368,56"/>
-<area shape="rect" id="Node000002" href="$class_lcd_screen.html#aabc8a935b48dfcdb6432cabfff64db94" title=" " alt="" coords="5,5,153,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,34,153,30,153,25,186,29"/>
-<area shape="rect" id="Node000003" href="$class_lcd_screen.html#a728ce1d5c8321cd738ee36fd47761dc9" title=" " alt="" coords="6,55,152,80"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,58,153,62,152,56,185,52"/>
-</map>
