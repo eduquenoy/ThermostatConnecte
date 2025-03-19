@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Thermostat connecté:  Fichier source de lcdscreen.ino</title>
+<link rel="icon" href="logoThermostat128.png" type="image/x-icon" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="logoThermostat128.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">Thermostat connecté<span id="projectnumber">&#160;version 0</span>
+   </div>
+   <div id="projectbrief">Phase de tests</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche',true);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('lcdscreen_8ino_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">lcdscreen.ino</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="lcdscreen_8ino.html">Aller à la documentation de ce fichier.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_lcd_screen.html#aaedcace6a344731a171919ab59d5a72d">    9</a></span><a class="code hl_function" href="class_lcd_screen.html#aaedcace6a344731a171919ab59d5a72d">LcdScreen::LcdScreen</a>() : rgb_lcd(){}</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="foldopen" id="foldopen00011" data-start="{" data-end="}">
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_lcd_screen.html#a571f8794792016e78510747452bb563b">   11</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_lcd_screen.html#a571f8794792016e78510747452bb563b">LcdScreen::begin</a>(<span class="keywordtype">byte</span> column, <span class="keywordtype">byte</span> row, <span class="keywordtype">byte</span> light){</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>  rgb_lcd::begin(column,row);</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>  setRGB(light, light, light);</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>  <a class="code hl_variable" href="class_lcd_screen.html#a71a4e891603ca184abfed9aff6e409ee">currentLight</a> = light;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>  createChar(0, <a class="code hl_variable" href="class_lcd_screen.html#a8420852d13ddf000a8e495607da3dc81">degree</a>);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>}</div>
+</div>
+<div class="foldopen" id="foldopen00017" data-start="{" data-end="}">
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_lcd_screen.html#a728ce1d5c8321cd738ee36fd47761dc9">   17</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_lcd_screen.html#a728ce1d5c8321cd738ee36fd47761dc9">LcdScreen::switchOn</a>(){ </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>  <a class="code hl_function" href="class_lcd_screen.html#af4ef1429710505de9684b22097a6e3f3">setBackLight</a>(<a class="code hl_define" href="lcdscreen_8h.html#a1585880c0e3bc1afa8cca39d9478eeec">INITIAL_LIGHT</a>);</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>  <a class="code hl_variable" href="class_lcd_screen.html#a71a4e891603ca184abfed9aff6e409ee">currentLight</a> = <a class="code hl_define" href="lcdscreen_8h.html#a1585880c0e3bc1afa8cca39d9478eeec">INITIAL_LIGHT</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>  <a class="code hl_variable" href="class_lcd_screen.html#a9a4061cf6975e5ea8063c35bd3f3d340">state</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+</div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="}">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_lcd_screen.html#aabc8a935b48dfcdb6432cabfff64db94">   22</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_lcd_screen.html#aabc8a935b48dfcdb6432cabfff64db94">LcdScreen::switchOff</a>(){</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>  <a class="code hl_function" href="class_lcd_screen.html#af4ef1429710505de9684b22097a6e3f3">setBackLight</a>(<a class="code hl_define" href="lcdscreen_8h.html#affef4ea927943f6cca6adf61e435401b">REST_LIGHT</a>);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>  <a class="code hl_variable" href="class_lcd_screen.html#a71a4e891603ca184abfed9aff6e409ee">currentLight</a> = <a class="code hl_define" href="lcdscreen_8h.html#affef4ea927943f6cca6adf61e435401b">REST_LIGHT</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>  <a class="code hl_variable" href="class_lcd_screen.html#a9a4061cf6975e5ea8063c35bd3f3d340">state</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
+</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="foldopen" id="foldopen00028" data-start="{" data-end="}">
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_lcd_screen.html#af4ef1429710505de9684b22097a6e3f3">   28</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="class_lcd_screen.html#af4ef1429710505de9684b22097a6e3f3">LcdScreen::setBackLight</a>(<span class="keywordtype">byte</span> light){</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>  setRGB(light, light, light);</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>  <a class="code hl_variable" href="class_lcd_screen.html#a71a4e891603ca184abfed9aff6e409ee">currentLight</a> = light;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>}</div>
+</div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_lcd_screen.html#aabf55b0b24e491f2bab4a29658f1fe23">   32</a></span><span class="keywordtype">bool</span> <a class="code hl_function" href="class_lcd_screen.html#aabf55b0b24e491f2bab4a29658f1fe23">LcdScreen::getState</a>(){</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>  <span class="keywordflow">return</span>(<a class="code hl_variable" href="class_lcd_screen.html#a9a4061cf6975e5ea8063c35bd3f3d340">state</a>);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>}</div>
+</div>
+<div class="ttc" id="aclass_lcd_screen_html_a571f8794792016e78510747452bb563b"><div class="ttname"><a href="class_lcd_screen.html#a571f8794792016e78510747452bb563b">LcdScreen::begin</a></div><div class="ttdeci">void begin(byte, byte, byte)</div><div class="ttdef"><b>Definition</b> <a href="#l00011">lcdscreen.ino:11</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_a71a4e891603ca184abfed9aff6e409ee"><div class="ttname"><a href="class_lcd_screen.html#a71a4e891603ca184abfed9aff6e409ee">LcdScreen::currentLight</a></div><div class="ttdeci">byte currentLight</div><div class="ttdef"><b>Definition</b> <a href="lcdscreen_8h_source.html#l00050">lcdscreen.h:50</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_a728ce1d5c8321cd738ee36fd47761dc9"><div class="ttname"><a href="class_lcd_screen.html#a728ce1d5c8321cd738ee36fd47761dc9">LcdScreen::switchOn</a></div><div class="ttdeci">void switchOn()</div><div class="ttdef"><b>Definition</b> <a href="#l00017">lcdscreen.ino:17</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_a8420852d13ddf000a8e495607da3dc81"><div class="ttname"><a href="class_lcd_screen.html#a8420852d13ddf000a8e495607da3dc81">LcdScreen::degree</a></div><div class="ttdeci">byte degree[8]</div><div class="ttdef"><b>Definition</b> <a href="lcdscreen_8h_source.html#l00051">lcdscreen.h:51</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_a9a4061cf6975e5ea8063c35bd3f3d340"><div class="ttname"><a href="class_lcd_screen.html#a9a4061cf6975e5ea8063c35bd3f3d340">LcdScreen::state</a></div><div class="ttdeci">bool state</div><div class="ttdef"><b>Definition</b> <a href="lcdscreen_8h_source.html#l00049">lcdscreen.h:49</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_aabc8a935b48dfcdb6432cabfff64db94"><div class="ttname"><a href="class_lcd_screen.html#aabc8a935b48dfcdb6432cabfff64db94">LcdScreen::switchOff</a></div><div class="ttdeci">void switchOff()</div><div class="ttdef"><b>Definition</b> <a href="#l00022">lcdscreen.ino:22</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_aabf55b0b24e491f2bab4a29658f1fe23"><div class="ttname"><a href="class_lcd_screen.html#aabf55b0b24e491f2bab4a29658f1fe23">LcdScreen::getState</a></div><div class="ttdeci">bool getState()</div><div class="ttdef"><b>Definition</b> <a href="#l00032">lcdscreen.ino:32</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_aaedcace6a344731a171919ab59d5a72d"><div class="ttname"><a href="class_lcd_screen.html#aaedcace6a344731a171919ab59d5a72d">LcdScreen::LcdScreen</a></div><div class="ttdeci">LcdScreen()</div><div class="ttdef"><b>Definition</b> <a href="#l00009">lcdscreen.ino:9</a></div></div>
+<div class="ttc" id="aclass_lcd_screen_html_af4ef1429710505de9684b22097a6e3f3"><div class="ttname"><a href="class_lcd_screen.html#af4ef1429710505de9684b22097a6e3f3">LcdScreen::setBackLight</a></div><div class="ttdeci">void setBackLight(byte)</div><div class="ttdef"><b>Definition</b> <a href="#l00028">lcdscreen.ino:28</a></div></div>
+<div class="ttc" id="alcdscreen_8h_html_a1585880c0e3bc1afa8cca39d9478eeec"><div class="ttname"><a href="lcdscreen_8h.html#a1585880c0e3bc1afa8cca39d9478eeec">INITIAL_LIGHT</a></div><div class="ttdeci">#define INITIAL_LIGHT</div><div class="ttdef"><b>Definition</b> <a href="lcdscreen_8h_source.html#l00016">lcdscreen.h:16</a></div></div>
+<div class="ttc" id="alcdscreen_8h_html_affef4ea927943f6cca6adf61e435401b"><div class="ttname"><a href="lcdscreen_8h.html#affef4ea927943f6cca6adf61e435401b">REST_LIGHT</a></div><div class="ttdeci">#define REST_LIGHT</div><div class="ttdef"><b>Definition</b> <a href="lcdscreen_8h_source.html#l00017">lcdscreen.h:17</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="lcdscreen_8ino.html">lcdscreen.ino</a></li>
+    <li class="footer">Généré le Mercredi 19 Mars 2025 09:54:51 pour Thermostat connecté par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

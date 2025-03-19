@@ -1,0 +1,21 @@
+<map id="inclusions.h" name="inclusions.h">
+<area shape="rect" id="Node000001" title="Inclusions diverses." alt="" coords="395,5,485,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,67,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="395,28,259,48,83,81,82,76,258,43,394,23"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="91,79,269,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="397,34,240,77,238,72,395,29"/>
+<area shape="rect" id="Node000004" href="$lcdscreen_8h.html" title="Gestion de l&#39;afficheur LCD." alt="" coords="293,79,382,105"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="424,34,369,72,365,68,421,29"/>
+<area shape="rect" id="Node000007" href="$button_8h.html" title="Gestion des boutons poussoirs." alt="" coords="406,79,474,105"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="443,31,443,63,437,63,437,31"/>
+<area shape="rect" id="Node000008" href="$tempsensor_8h.html" title="Mesure de la température." alt="" coords="498,79,598,105"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="460,29,518,68,515,72,457,34"/>
+<area shape="rect" id="Node000009" href="$setpoint_8h.html" title="Gestion de la consigne." alt="" coords="622,79,700,105"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="478,29,610,71,609,76,477,34"/>
+<area shape="rect" id="Node000010" href="$control_8h.html" title="Régulation de température." alt="" coords="724,79,796,105"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="486,27,710,76,709,81,485,32"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="262,153,322,178"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="332,106,310,141,305,138,328,103"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="346,153,420,178"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="347,103,369,138,365,141,343,106"/>
+</map>

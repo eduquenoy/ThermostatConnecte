@@ -1,0 +1,9 @@
+<map id="setup" name="setup">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,59,80"/>
+<area shape="rect" id="Node000002" href="$_thermostat__v0_8ino.html#aee040a3d27b786cf8f3dcc396c25de5c" title=" " alt="" coords="134,5,186,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="58,55,119,31,121,36,60,60"/>
+<area shape="rect" id="Node000003" href="$_thermostat__v0_8ino.html#ad6f52acc0abcac3c6c143d773fb15490" title=" " alt="" coords="134,55,186,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="59,65,119,65,119,70,59,70"/>
+<area shape="rect" id="Node000004" href="$_thermostat__v0_8ino.html#a43043e51236bdda393b5b8a556ef53bc" title=" " alt="" coords="107,104,213,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="60,75,111,95,109,100,58,80"/>
+</map>
